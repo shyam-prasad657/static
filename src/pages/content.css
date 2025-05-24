@@ -1,0 +1,24 @@
+/* $french-blue: #1B75BBff;
+$flame: #EF5927ff; */
+
+* {
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+p.content-text {
+    color: #1E3E5C;
+    word-spacing: 5px;
+    line-height: 1.5;
+}
+header {
+    position: sticky;
+    top : 0;
+  }
+#content-container {
+    background-color: #C1D7EB;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#head{
+    font-weight: 600;
+}
