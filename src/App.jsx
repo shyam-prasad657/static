@@ -2,10 +2,8 @@ import { useState } from 'react'
 import './App.css'
 import Nav from './components/navbar'
 import Home from './pages/home'
-import Content from './pages/content'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -14,7 +12,11 @@ function App() {
     </header>
     <main>
       <Home />
-      <Content />
+      <Home />
+      <Home />
+      <Home />
+      <Home />
+      <Home />
     </main>
     </>
   )

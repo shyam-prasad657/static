@@ -3,11 +3,17 @@
     font-family: "Noto Sans", sans-serif;
 }
 nav {
-    position: sticky;
+    position: fixed;
     top : 0;
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
   }
 .bg-body-tertiary{
   background-color: #EBEBEB;
+}
+nav.scroller{
+  background-color: rgba(255, 255, 255, 0.4); /* Transparent */
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .offcanvas{
@@ -35,11 +41,6 @@ nav {
 .icon{
   font-size: 24px;
 }
-
-.tabs {
-  position: absolute;
-}
-
 
 @media screen and (min-width: 992px){
   .nav-item{

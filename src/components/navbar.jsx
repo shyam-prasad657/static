@@ -1,18 +1,28 @@
-import { useState } from'react';
+import { useEffect, useState } from'react';
 import logo from '../media/Logo PNG File Transparent Background.png';
 import './navbar.css';
-import { MdOutlineShoppingCart } from "react-icons/md";
 
 export default function Nav() {
   const [selectedIndex, setSelectedIndex] = useState(null);
+  const [scrolled, setScrolled] = useState(false);
+  useEffect(()=> {
+    const handleScroll = () => {
+      const offset = window.scrollY;
+      setScrolled(offset>1)
+      console.log(offset);
+    };
+      window.addEventListener('scroll', handleScroll);
+      return () => window.removeEventListener('scroll', handleScroll);
+  },[])
 
 return(
-<nav className="navbar bg-body-tertiary pt-4">
+<>
+<nav className={`navbar pt-4 ${scrolled ? 'scroller' : 'bg-body-tertiary'}`}>
   <div className="container">
     <div className='pc-container'>
         <a className="navbar-brand" href="#"><img src = {logo} className = "img-fluid" height = "70px" width = "125px"></img></a>
       <div className='nav-content align-self-center'>
-          <div  className = 'd-flex tabs'>
+          <div  className = 'd-flex'>
           <div className= "nav-item dropdown" id = {`${selectedIndex === 1 ? "Item-1" : ""}`} onClick={() => setSelectedIndex(1)}>
               <p className="tab dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Categories</p>
               <ul className="dropdown-menu">
@@ -40,21 +50,12 @@ return(
           </div>
           </div>
       </div>
-      
-    </div>
-    {/* logout */}
-    <div className='d-flex nav-content'>
-        <div>
-          logout
-        </div>
-        <div >
-        <MdOutlineShoppingCart className="icon"/>
-        </div>
     </div>
     <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
       <span className="navbar-toggler-icon"></span>
     </button>
   </div>
+</nav>
     <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
       <ul className = "navbar-nav me-auto mb-2 mb-lg-0" >
         <li className= "nav-item dropdown">
@@ -82,6 +83,6 @@ return(
         </li>
       </ul>
     </div>
-</nav>
+</>
     );
 }
