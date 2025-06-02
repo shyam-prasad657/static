@@ -2,5 +2,9 @@
   box-sizing: border-box;
 }
 header {
+    position: sticky;
+    top : 0;
+  }
+header {
   z-index: 9999;
 }

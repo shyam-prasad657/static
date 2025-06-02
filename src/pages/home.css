@@ -5,20 +5,20 @@ $flame: #EF5927ff; */
     box-sizing: border-box;
     font-family: "Noto Sans", sans-serif;
 }
-p.home-text {
-    color: #EBEBEB;
-    word-spacing: 5px;
-    line-height: 1.5;
-}
-header {
-    position: sticky;
-    top : 0;
-  }
 #home-container {
     background: linear-gradient(45deg, #1B75BB, #3A8CCF, #EF5927);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height : 83vh;
 }
-
+p.home-text {
+    /* color: #EBEBEB; */
+    word-spacing: 5px;
+    line-height: 1.5;
+}
 #head{
     font-weight: 600;
+}
+
+.icons{
+    font-size: 36px;
 }

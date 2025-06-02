@@ -2,6 +2,8 @@ import { useState } from 'react'
 import './App.css'
 import Nav from './components/navbar'
 import Home from './pages/home'
+import Content from './pages/content'
+import Footer from './pages/footer'
 
 function App() {
 
@@ -12,12 +14,9 @@ function App() {
     </header>
     <main>
       <Home />
-      <Home />
-      <Home />
-      <Home />
-      <Home />
-      <Home />
+      <Content />
     </main>
+    <Footer />
     </>
   )
 }

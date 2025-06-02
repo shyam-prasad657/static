@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+#content-container {
+    background: linear-gradient(45deg, #1B75BB, #3A8CCF, #EF5927);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-height : 50vh;
+    padding-bottom: 30px;
+}
+p.home-text {
+    /* color: #EBEBEB; */
+    word-spacing: 5px;
+    line-height: 1.5;
+}
+.card{
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.avatar{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4a90e2;
+    height: 50px;
+    width : 50px;
+}
+.star{
+    color: #FFD700;
+    font-size: 20px;
+}
