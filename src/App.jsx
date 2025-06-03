@@ -4,19 +4,27 @@ import Nav from './components/navbar'
 import Home from './pages/home'
 import Content from './pages/content'
 import Footer from './pages/footer'
+import Count from './pages/count'
+import CarouselComponent from './pages/carousel'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import About from './pages/about'
 
 function App() {
 
   return (
     <>
+    <BrowserRouter>
     <header>
       <Nav />
     </header>
     <main>
-      <Home />
-      <Content />
+      <Routes>
+        <Route path = '/' element = {<Home />} />
+        <Route path = '/about' element = {<About />} />
+      </Routes>
     </main>
     <Footer />
+    </BrowserRouter>
     </>
   )
 }

@@ -1,6 +1,7 @@
 import { useEffect, useState } from'react';
 import logo from '../media/Logo PNG File Transparent Background.png';
 import './navbar.css';
+import { Link } from 'react-router-dom';
 
 export default function Nav() {
   const [selectedIndex, setSelectedIndex] = useState(null);
@@ -20,7 +21,9 @@ return(
 <nav className={`navbar pt-4 ${scrolled ? 'scroller' : 'bg-body-tertiary'}`}>
   <div className="container">
     <div className='pc-container'>
+        <Link to = '/'>
         <a className="navbar-brand" href="#"><img src = {logo} className = "img-fluid" height = "70px" width = "125px"></img></a>
+        </Link>
       <div className='nav-content align-self-center'>
           <div  className = 'd-flex'>
           <div className= "nav-item dropdown" id = {`${selectedIndex === 1 ? "Item-1" : ""}`} onClick={() => setSelectedIndex(1)}>
@@ -44,9 +47,11 @@ return(
             <div className= "nav-item" id = {`${selectedIndex === 4 ? "Item-5" : ""}`} onClick={() => setSelectedIndex(4)}>
               <p className="tab" href = "#" aria-disabled="true">Support</p>
             </div>
-            <div className= "nav-item" id = {`${selectedIndex === 5 ? "Item-6" : ""}`} onClick={() => setSelectedIndex(5)}>
-              <p className="tab" href = "#" aria-disabled="true">About</p>
-            </div>
+            <Link to = '/about'>
+              <div className= "nav-item" id = {`${selectedIndex === 5 ? "Item-6" : ""}`} onClick={() => setSelectedIndex(5)}>
+              <p className="tab" href = "#" aria-disabled="true">Our Story</p>
+              </div>
+            </Link>
           </div>
           </div>
       </div>
