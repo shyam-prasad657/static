@@ -5,20 +5,25 @@ $flame: #EF5927ff; */
     box-sizing: border-box;
     font-family: "Noto Sans", sans-serif;
 }
-#home-container {
-    background: linear-gradient(45deg, #1B75BB, #3A8CCF, #EF5927);
+#usp-container {
+    background-color: #EBEBEB;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    min-height : 60vh;
+    min-height : 83vh;
 }
-p.home-text {
+p.usp-text {
     /* color: #EBEBEB; */
-    word-spacing: 5px;
+    word-spacing: 2px;
     line-height: 1.5;
 }
 #head{
     font-weight: 600;
 }
 
-.icons{
-    font-size: 36px;
+.usp-icons-container {
+    border-radius: 8px;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.usp-icons{
+    font-size: 48px;
 }

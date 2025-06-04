@@ -12,7 +12,7 @@ function Start() {
     });
   }, []);
   return (
-    <section className = 'container-fluid' id = 'home-container'>
+    <section className = 'container-fluid py-4' id = 'home-container'>
           <div className='container'>
             <div className = 'row d-flex justify-content-between'>
                 <div className = 'col-md-6 align-self-center' data-aos="fade-right">
