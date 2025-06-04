@@ -18,3 +18,29 @@ p.about-text {
 #head{
     font-weight: 600;
 }
+#about-img-container{
+    overflow-block:hidden;
+}
+.about-icon-container{
+    border-radius: 50%;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.about-icons{
+    font-size: 30px;
+    padding: 0;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+
+#linkedin-background:hover{
+    background-color: #0a66c2;
+    #linkedin {
+    color: white;
+    }
+}
+#x-background:hover{
+    background-color: black;
+    #x {
+    color: white;
+    }
+}
