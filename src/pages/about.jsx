@@ -30,7 +30,7 @@ function About() {
                     <p className='h4 about-text m-0'>Lorem Ipsum</p>
                     <p className="h5 text-body-secondary">CEO</p>
                     <p className="h5 about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquet, lacus non vulputate ultrices, est arcu efficitur eros, nec viverra libero magna a purus. In varius, lorem in fermentum suscipit, sapien sapien congue odio, in vestibulum turpis lacus sed turpis. Suspendisse potenti. Integer non tellus at augue porttitor pulvinar. Etiam ut convallis orci. Praesent fringilla, lorem sed aliquet euismod, metus orci fermentum erat, a finibus.</p>
-                    <div className="row justify-content-end align-items-center">
+                    <div className="row px-4 justify-content-end align-items-center">
                         <p className="h4 about-text m-0 col-6 text-end">Get in touch</p>
                         <div className="about-icon-container ms-2 col-auto" id = 'linkedin-background'>
                             <FaLinkedinIn className='about-icons' id='linkedin'/>
@@ -49,7 +49,7 @@ function About() {
                     <p className='h4 about-text m-0'>Lorem Ipsum</p>
                     <p className="h5 text-body-secondary">CEO</p>
                     <p className="h5 about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquet, lacus non vulputate ultrices, est arcu efficitur eros, nec viverra libero magna a purus. In varius, lorem in fermentum suscipit, sapien sapien congue odio, in vestibulum turpis lacus sed turpis. Suspendisse potenti. Integer non tellus at augue porttitor pulvinar. Etiam ut convallis orci. Praesent fringilla, lorem sed aliquet euismod, metus orci fermentum erat, a finibus.</p>
-                    <div className="row justify-content-end align-items-center">
+                    <div className="row px-4 justify-content-end align-items-center">
                         <p className="h4 about-text m-0 col-6 text-end">Get in touch</p>
                         <div className="about-icon-container ms-2 col-auto" id = 'linkedin-background'>
                             <FaLinkedinIn className='about-icons' id='linkedin'/>
@@ -68,7 +68,7 @@ function About() {
                     <p className='h4 about-text m-0'>Lorem Ipsum</p>
                     <p className="h5 text-body-secondary">CEO</p>
                     <p className="h5 about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquet, lacus non vulputate ultrices, est arcu efficitur eros, nec viverra libero magna a purus. In varius, lorem in fermentum suscipit, sapien sapien congue odio, in vestibulum turpis lacus sed turpis. Suspendisse potenti. Integer non tellus at augue porttitor pulvinar. Etiam ut convallis orci. Praesent fringilla, lorem sed aliquet euismod, metus orci fermentum erat, a finibus.</p>
-                    <div className="row justify-content-end align-items-center">
+                    <div className="row px-4 justify-content-end align-items-center">
                         <p className="h4 about-text m-0 col-6 text-end">Get in touch</p>
                         <div className="about-icon-container ms-2 col-auto" id = 'linkedin-background'>
                             <FaLinkedinIn className='about-icons' id='linkedin'/>
