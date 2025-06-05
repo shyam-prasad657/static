@@ -29,7 +29,7 @@ return(
         </Link>
       <div className='nav-content align-self-center'>
           <div  className = 'd-flex'>
-          <div className= "nav-item" id = {`${selectedIndex === 2 ? "Item-2" : ""}`} onClick={() => setSelectedIndex(2)}>
+            <div className= "nav-item" id = {`${selectedIndex === 2 ? "Item-2" : ""}`} onClick={() => setSelectedIndex(2)}>
               <p>Products</p>
             </div>
             <div className= "nav-item" id = {`${selectedIndex === 3 ? "Item-4" : ""}`} onClick={() => setSelectedIndex(3)}>
@@ -78,29 +78,45 @@ return(
 </nav>
     <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
       <ul className = "navbar-nav me-auto mb-2 mb-lg-0" >
-        <li className= "nav-item dropdown">
-          <p a className="tab dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Categories</p>
-          <ul className="dropdown-menu">
-            <li><p className="dropdown-item" href="#">Action</p></li>
-            <li><p className="dropdown-item" href="#">Action</p></li>
-            <li><p className="dropdown-item" href="#">Action</p></li>
-            <li><p className="dropdown-item" href="#">Another action</p></li>
-            <li><hr className="dropdown-divider" /></li>
-            <li><p className="dropdown-item" href="#">Something else here</p></li>
-          </ul>
-        </li>
-        <li className= "nav-item">
-          <p className="tab " href="#">Products</p>
-        </li>
-        <li className= "nav-item">
-          <p className="tab " href = "#" aria-disabled="true">Customers</p>
-        </li>
-        <li className= "nav-item">
-          <p href = "#" aria-disabled="true">Support</p>
-        </li>
-        <li className= "nav-item">
-          <p href = "#" aria-disabled="true">About</p>
-        </li>
+            <div className= "nav-item" id = {`${selectedIndex === 2 ? "Item-2" : ""}`} onClick={() => setSelectedIndex(2)}>
+              <p>Products</p>
+            </div>
+            <div className= "nav-item" id = {`${selectedIndex === 3 ? "Item-4" : ""}`} onClick={() => setSelectedIndex(3)}>
+              <p aria-disabled="true">Customers</p>
+            </div>
+            <div className= "nav-item" id = {`${selectedIndex === 4 ? "Item-5" : ""}`} onClick={() => setSelectedIndex(4)}>
+              <p aria-disabled="true">Support</p>
+            </div>
+            <div className= "nav-item dropdown" id = {`${selectedIndex === 1 ? "Item-1" : ""}`} onClick={() => setSelectedIndex(1)}>
+              <p className="tab dropdown-toggle " role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</p>
+              <ul className="dropdown-menu">
+                <Link to = '/about'>
+                  <li>
+                    <div className = 'd-flex align-items-center dropdown-item'>
+                      <MdTimeline className='nav-icons' />
+                      <p className = 'ms-2'>Our Story</p>
+                      </div>
+                  </li>
+                </Link>
+                <Link to = '/reachus'>
+                  <li>
+                    <div className = 'd-flex align-items-center dropdown-item'>
+                      <FaMapMarkerAlt className='nav-icons' />
+                      <p className = 'ms-2'>Reach Us</p>
+                      </div>
+                  </li>
+                </Link>
+                <li><hr className="dropdown-divider" /></li>
+                <Link to = '/faq'>
+                  <li>
+                    <div className = 'd-flex align-items-center dropdown-item'>
+                      <FaQuestionCircle className='nav-icons' />
+                      <p className = 'ms-2'>FAQ</p>
+                      </div>
+                  </li>
+                </Link>
+              </ul>
+          </div>
       </ul>
     </div>
 </>
