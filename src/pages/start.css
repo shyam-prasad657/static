@@ -6,9 +6,10 @@ $flame: #EF5927ff; */
     font-family: "Noto Sans", sans-serif;
 }
 #home-container {
-    background: linear-gradient(45deg, #1B75BB, #3A8CCF, #EF5927);
+    /* background: linear-gradient(45deg, #1B75BB, #3A8CCF, #EF5927); */
+    background-color: #EBEBEB;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    min-height : 60vh;
+    min-height : 90vh;
 }
 p.home-text {
     /* color: #EBEBEB; */

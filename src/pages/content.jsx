@@ -17,9 +17,9 @@ function Content() {
     <section className='container-fluid' id = 'content-container'>
         <div className = 'container'>
             <p className='h1 home-text text-center'>Happy Clients, Smarter Trades</p>
-            <div className='row'>
-                <div className='d-flex flex-column col-md-4'>
-                <div className="col" data-aos="fade-up">
+            <div className='row gx-4 my-4 justify-content-center align-items-center'>
+                <div className='row col-lg-4 col-md-12 p-0'>
+                <div className="col-12 " data-aos="fade-up">
                 <div class="card">
                 <div class="card-body">
                     <div className='d-flex justify-content-between align-items-center'>
@@ -42,7 +42,7 @@ function Content() {
                 </div>
                 </div>
                 </div>
-                <div className="col" data-aos="fade-up">
+                <div className="col-12 my-2" data-aos="fade-up">
                 <div class="card">
                 <div class="card-body">
                     <div className='d-flex justify-content-between align-items-center'>
@@ -66,7 +66,7 @@ function Content() {
                 </div>
                 </div>
                 </div>
-                <div className="col-md-4" data-aos="fade-up">
+                <div className="col-lg-4 col-md-12" data-aos="fade-up">
                 <div class="card">
                 <div class="card-body">
                     <div className='d-flex justify-content-between align-items-center'>
@@ -89,8 +89,8 @@ function Content() {
                 </div>
                 </div>
                 </div>
-                <div className='d-flex flex-column col-md-4'>
-                <div className="col" data-aos="fade-up">
+                <div className='row col-lg-4 col-md-12 p-0'>
+                <div className="col-12 mt-2" data-aos="fade-up">
                 <div class="card">
                 <div class="card-body">
                     <div className='d-flex justify-content-between align-items-center'>
@@ -113,7 +113,7 @@ function Content() {
                 </div>
                 </div>
                 </div>
-                <div className="col" data-aos="fade-up">
+                <div className="col-12 my-2" data-aos="fade-up">
                 <div class="card">
                 <div class="card-body">
                     <div className='d-flex justify-content-between align-items-center'>
