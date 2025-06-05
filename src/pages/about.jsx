@@ -31,7 +31,7 @@ function About() {
                     <p className="h5 text-body-secondary">CEO</p>
                     <p className="h5 about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquet, lacus non vulputate ultrices, est arcu efficitur eros, nec viverra libero magna a purus. In varius, lorem in fermentum suscipit, sapien sapien congue odio, in vestibulum turpis lacus sed turpis. Suspendisse potenti. Integer non tellus at augue porttitor pulvinar. Etiam ut convallis orci. Praesent fringilla, lorem sed aliquet euismod, metus orci fermentum erat, a finibus.</p>
                     <div className="row justify-content-end align-items-center">
-                        <p className="h4 about-text m-0 col-10 text-end">Get in touch</p>
+                        <p className="h4 about-text m-0 col-6 text-end">Get in touch</p>
                         <div className="about-icon-container ms-2 col-auto" id = 'linkedin-background'>
                             <FaLinkedinIn className='about-icons' id='linkedin'/>
                         </div>
@@ -40,7 +40,7 @@ function About() {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-5" data-aos = 'fade-in'>
+                <div className="col-md-5 order-first order-md-2 order-md-2" data-aos = 'fade-in'>
                     <img src = {profile} className='img-fluid' height= '40px'></img>
                 </div>
             </div>
@@ -50,7 +50,7 @@ function About() {
                     <p className="h5 text-body-secondary">CEO</p>
                     <p className="h5 about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquet, lacus non vulputate ultrices, est arcu efficitur eros, nec viverra libero magna a purus. In varius, lorem in fermentum suscipit, sapien sapien congue odio, in vestibulum turpis lacus sed turpis. Suspendisse potenti. Integer non tellus at augue porttitor pulvinar. Etiam ut convallis orci. Praesent fringilla, lorem sed aliquet euismod, metus orci fermentum erat, a finibus.</p>
                     <div className="row justify-content-end align-items-center">
-                        <p className="h4 about-text m-0 col-10 text-end">Get in touch</p>
+                        <p className="h4 about-text m-0 col-6 text-end">Get in touch</p>
                         <div className="about-icon-container ms-2 col-auto" id = 'linkedin-background'>
                             <FaLinkedinIn className='about-icons' id='linkedin'/>
                         </div>
@@ -59,7 +59,7 @@ function About() {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-5" data-aos = 'fade-in'>
+                <div className="col-md-5 order-first order-md-2 order-md-2" data-aos = 'fade-in'>
                     <img src = {profile} className='img-fluid' height= '40px'></img>
                 </div>
             </div>
@@ -69,7 +69,7 @@ function About() {
                     <p className="h5 text-body-secondary">CEO</p>
                     <p className="h5 about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquet, lacus non vulputate ultrices, est arcu efficitur eros, nec viverra libero magna a purus. In varius, lorem in fermentum suscipit, sapien sapien congue odio, in vestibulum turpis lacus sed turpis. Suspendisse potenti. Integer non tellus at augue porttitor pulvinar. Etiam ut convallis orci. Praesent fringilla, lorem sed aliquet euismod, metus orci fermentum erat, a finibus.</p>
                     <div className="row justify-content-end align-items-center">
-                        <p className="h4 about-text m-0 col-10 text-end">Get in touch</p>
+                        <p className="h4 about-text m-0 col-6 text-end">Get in touch</p>
                         <div className="about-icon-container ms-2 col-auto" id = 'linkedin-background'>
                             <FaLinkedinIn className='about-icons' id='linkedin'/>
                         </div>
@@ -78,10 +78,11 @@ function About() {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-5" data-aos = 'fade-in'>
+                <div className="col-md-5 order-first order-md-2 order-md-2" data-aos = 'fade-in'>
                     <img src = {profile} className='img-fluid' height= '40px'></img>
                 </div>
             </div>
+            
             </div>
         </section>
     )
