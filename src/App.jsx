@@ -6,7 +6,7 @@ import Content from './pages/content'
 import Footer from './pages/footer'
 import Count from './pages/count'
 import CarouselComponent from './pages/carousel'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 import About from './pages/about'
 
 function App() {
@@ -20,6 +20,7 @@ function App() {
     <main>
       <Routes>
         <Route path = '/' element = {<Home />} />
+        <Route path = '*' element={<Navigate to = '/' replace />} />
         <Route path = '/about' element = {<About />} />
       </Routes>
     </main>
