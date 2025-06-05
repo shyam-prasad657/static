@@ -26,25 +26,27 @@ nav.scroller{
   transition-delay: 0.25s;
   transition-timing-function:ease;
 }
-.nav-element{
-  font-size: 16px;
-  font-weight:700;
-}
-.nav-item{
+.nav-item {
   border-radius : 35px;
+}
+.dropdown-item, .nav-item{
   transition: all;
   transition-duration: 0.5s;
   padding : 6px 12px;
 }
-.nav-item {
-  p.tab{
+.dropdown-item, .nav-item {
+  p{
     margin : 0;
     font-weight: 600;
     font-size: 24;
   }
 }
-.icon{
-  font-size: 24px;
+.nav-icons {
+  font-size: 20px;
+}
+.dropdown-item:active{
+  color: inherit;
+  background-color: inherit;
 }
 
 @media screen and (min-width: 992px){
@@ -55,12 +57,9 @@ nav.scroller{
     background-color: rgba(0, 119, 255, 0.699);
     color: #EBEBEB;
   }
-  #Item-1, #Item-2, #Item-3, #Item-4, #Item-5, #Item-6{
+  #Item-1, #Item-2, #Item-3, #Item-4, #Item-5{
     background-color: rgba(0, 119, 255, 0.699);
     color : #EBEBEB;
-    p.tab {
-      color : #EBEBEB;
-    }
   }
   .navbar-toggler{
     display: none;

@@ -19,7 +19,7 @@ function Usp() {
             <p className="h1 text-center m-0">Inside</p>
             <img src = {logo} className='img-fluid ms-3' height = "70px" width = "125px" data-aos = 'fade-in'></img>
             </div>
-            <div className="container py-4 row justify-content-center">
+            <div className="py-4 row">
               <div className="col-lg-6 col-sm-12">
                 <img src= {stock} className = 'img-fluid' alt="stock-img" height='450px' width = '100%'/>
               </div>

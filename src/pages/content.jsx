@@ -16,7 +16,7 @@ function Content() {
   return (
     <section className='container-fluid' id = 'content-container'>
         <div className = 'container'>
-            <p className='h1 home-text text-center'>Happy Clients, Smarter Trades</p>
+            <p className='h1 pt-4 home-text text-center'>Happy Clients, Smarter Trades</p>
             <div className='row gx-4 my-4 justify-content-center align-items-center'>
                 <div className='row col-lg-4 col-md-12 p-0'>
                 <div className="col-12 " data-aos="fade-up">

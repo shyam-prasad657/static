@@ -2,6 +2,9 @@ import { useEffect, useState } from'react';
 import logo from '../media/Logo PNG File Transparent Background.png';
 import './navbar.css';
 import { Link } from 'react-router-dom';
+import { MdTimeline } from 'react-icons/md';
+import { FaMapMarkerAlt } from "react-icons/fa";
+import { FaQuestionCircle } from "react-icons/fa";
 
 export default function Nav() {
   const [selectedIndex, setSelectedIndex] = useState(null);
@@ -22,36 +25,48 @@ return(
   <div className="container">
     <div className='pc-container'>
         <Link to = '/'>
-        <a className="navbar-brand" href="#" onClick={() => setSelectedIndex(0)}><img src = {logo} className = "img-fluid" height = "70px" width = "125px"></img></a>
+        <a className="navbar-brand" onClick={() => setSelectedIndex(0)}><img src = {logo} className = "img-fluid" height = "70px" width = "125px"></img></a>
         </Link>
       <div className='nav-content align-self-center'>
           <div  className = 'd-flex'>
-          <div className= "nav-item dropdown" id = {`${selectedIndex === 1 ? "Item-1" : ""}`} onClick={() => setSelectedIndex(1)}>
-              <p className="tab dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Categories</p>
-              <ul className="dropdown-menu">
-                <li><p className="dropdown-item" href="#">Action</p></li>
-                <li><p className="dropdown-item" href="#">Action</p></li>
-                <li><p className="dropdown-item" href="#">Action</p></li>
-                <li><p className="dropdown-item" href="#">Another action</p></li>
-                <li><hr className="dropdown-divider" /></li>
-                <li><p className="dropdown-item" href="#">Something else here</p></li>
-              </ul>
-          </div>
-          <div className = 'd-flex align-self-start'>
           <div className= "nav-item" id = {`${selectedIndex === 2 ? "Item-2" : ""}`} onClick={() => setSelectedIndex(2)}>
-              <p className="tab" href="#">Products</p>
+              <p>Products</p>
             </div>
             <div className= "nav-item" id = {`${selectedIndex === 3 ? "Item-4" : ""}`} onClick={() => setSelectedIndex(3)}>
-              <p className="tab" href = "#" aria-disabled="true">Customers</p>
+              <p aria-disabled="true">Customers</p>
             </div>
             <div className= "nav-item" id = {`${selectedIndex === 4 ? "Item-5" : ""}`} onClick={() => setSelectedIndex(4)}>
-              <p className="tab" href = "#" aria-disabled="true">Support</p>
+              <p aria-disabled="true">Support</p>
             </div>
-            <Link to = '/about'>
-              <div className= "nav-item" id = {`${selectedIndex === 5 ? "Item-6" : ""}`} onClick={() => setSelectedIndex(5)}>
-              <p className="tab" href = "#" aria-disabled="true">Our Story</p>
-              </div>
-            </Link>
+            <div className= "nav-item dropdown" id = {`${selectedIndex === 1 ? "Item-1" : ""}`} onClick={() => setSelectedIndex(1)}>
+              <p className="tab dropdown-toggle " role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</p>
+              <ul className="dropdown-menu">
+                <Link to = '/about'>
+                  <li>
+                    <div className = 'd-flex align-items-center dropdown-item'>
+                      <MdTimeline className='nav-icons' />
+                      <p className = 'ms-2'>Our Story</p>
+                      </div>
+                  </li>
+                </Link>
+                <Link to = '/reachus'>
+                  <li>
+                    <div className = 'd-flex align-items-center dropdown-item'>
+                      <FaMapMarkerAlt className='nav-icons' />
+                      <p className = 'ms-2'>Reach Us</p>
+                      </div>
+                  </li>
+                </Link>
+                <li><hr className="dropdown-divider" /></li>
+                <Link to = '/faq'>
+                  <li>
+                    <div className = 'd-flex align-items-center dropdown-item'>
+                      <FaQuestionCircle className='nav-icons' />
+                      <p className = 'ms-2'>FAQ</p>
+                      </div>
+                  </li>
+                </Link>
+              </ul>
           </div>
           </div>
       </div>
@@ -81,10 +96,10 @@ return(
           <p className="tab " href = "#" aria-disabled="true">Customers</p>
         </li>
         <li className= "nav-item">
-          <p className="tab" href = "#" aria-disabled="true">Support</p>
+          <p href = "#" aria-disabled="true">Support</p>
         </li>
         <li className= "nav-item">
-          <p className="tab" href = "#" aria-disabled="true">About</p>
+          <p href = "#" aria-disabled="true">About</p>
         </li>
       </ul>
     </div>
