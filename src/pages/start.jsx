@@ -14,13 +14,13 @@ function Start() {
   return (
     <section className = 'container-fluid py-4' id = 'home-container'>
           <div className='container'>
-            <div className = 'row d-flex justify-content-between'>
+            <div className = 'row d-flex'>
                 <div className = 'col-md-6 align-self-center' data-aos="fade-right">
                 <p className='h1 home-text' id = 'head'>Connect</p>
                 <p className='h4 home-text'>Happy employees and partners mean happy customers. Connect and engage with your customers, employees and partners effectively.</p>
                 </div>
                 <div className = 'col-md-4'>
-                    <img className = 'img-fluid' alt="home-image" src = {TreeImage}></img>
+                    <img className = 'img-flui' alt="home-image" src = {TreeImage} height= '380px' width = '450px'></img>
                 </div>
             </div>
             </div>

@@ -25,7 +25,7 @@ return(
   <div className="container">
     <div className='pc-container'>
         <Link to = '/'>
-        <a className="navbar-brand" onClick={() => setSelectedIndex(0)}><img src = {logo} className = "img-fluid" height = "70px" width = "125px"></img></a>
+        <div className="navbar-brand" onClick={() => setSelectedIndex(0)}><img src = {logo} className = "img-fluid" height = "70px" width = "125px"></img></div>
         </Link>
       <div className='nav-content align-self-center'>
           <div  className = 'd-flex'>

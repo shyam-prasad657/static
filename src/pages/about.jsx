@@ -21,7 +21,7 @@ function About() {
             </p>
             </div>
             <div id = "about-img-container">
-                <img src = {doodle} className='img-fluid'></img>
+                <img src = {doodle} className='img-flui' height='190px' width= '100%'></img>
             </div>
             <div className="container pt-4">
             <div className='h3 text-center mt-4'>Meet The Visionaries Behind</div>

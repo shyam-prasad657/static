@@ -1,12 +1,8 @@
 /* $french-blue: #1B75BBff;
 $flame: #EF5927ff; */
 
-* {
-    box-sizing: border-box;
-    font-family: "Noto Sans", sans-serif;
-}
 #carousel-container {
-    background-color: #C3D6EA;
+    background-color: #D6D6D6;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     min-height : 40vh;
 }

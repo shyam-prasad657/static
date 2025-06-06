@@ -16,7 +16,7 @@ function Usp() {
   return (
     <section className = 'container-fluid d-flex flex-column align-items-center' id = 'usp-container'>
       <div className="container">
-          <div className="pt-4 d-flex justify-content-center align-items-center">
+            <div className="pt-4 d-flex justify-content-center align-items-center">
             <p className="h1 text-center m-0">Inside</p>
             <img src = {logo} className='img-fluid ms-3' height = "70px" width = "125px" data-aos = 'fade-in'></img>
             </div>

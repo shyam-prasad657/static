@@ -1,10 +1,7 @@
 /* $french-blue: #1B75BBff;
 $flame: #EF5927ff; */
 
-* {
-    box-sizing: border-box;
-    font-family: "Noto Sans", sans-serif;
-}
+
 #count-container {
     background-color: #1B75BB;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
