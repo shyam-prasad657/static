@@ -41,7 +41,7 @@ return(
             <div className= "nav-item dropdown" id = {`${selectedIndex === 1 ? "Item-1" : ""}`} onClick={() => setSelectedIndex(1)}>
               <p className="tab dropdown-toggle " role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</p>
               <ul className="dropdown-menu">
-                <Link to = '/about'>
+                <Link to = '/about#about-container'>
                   <li>
                     <div className = 'd-flex align-items-center dropdown-item'>
                       <MdTimeline className='nav-icons' />

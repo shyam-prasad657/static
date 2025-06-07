@@ -20,7 +20,7 @@ function Start() {
                 <p className='h4 home-text'>Happy employees and partners mean happy customers. Connect and engage with your customers, employees and partners effectively.</p>
                 </div>
                 <div className = 'col-md-4'>
-                    <img className = 'img-flui' alt="home-image" src = {TreeImage} height= '380px' width = '450px'></img>
+                    <img className = 'img-fluid' alt="home-image" src = {TreeImage} height= '380px' width = '450px'></img>
                 </div>
             </div>
             </div>

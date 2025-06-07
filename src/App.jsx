@@ -6,14 +6,14 @@ import Content from './pages/content'
 import Footer from './pages/footer'
 import Count from './pages/count'
 import CarouselComponent from './pages/carousel'
-import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, HashRouter, Navigate, Route, Routes } from 'react-router-dom'
 import About from './pages/about'
 
 function App() {
 
   return (
     <>
-    <BrowserRouter>
+    <HashRouter>
     <header>
       <Nav />
     </header>
@@ -25,7 +25,7 @@ function App() {
       </Routes>
     </main>
     <Footer />
-    </BrowserRouter>
+    </HashRouter>
     </>
   )
 }

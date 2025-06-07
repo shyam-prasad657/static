@@ -5,14 +5,26 @@ import doodle from '../media/doodle.jpg';
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 function About() {
+    const location = useLocation();
     useEffect(() => {
         Aos.init({
           duration: 800,
           once: true, // animation runs only once
         });
       }, []);
+
+  useEffect(() => {
+    if (location.hash) {
+      const target = document.querySelector(location.hash);
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [location]);
+  
     return (
         <section className='container-fluid px-0 py-2' id='about-container'>
             <div className="container py-5">
