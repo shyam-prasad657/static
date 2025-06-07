@@ -78,21 +78,21 @@ return(
 </nav>
     <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
       <ul className = "navbar-nav me-auto mb-2 mb-lg-0" >
-            <div className= "nav-item" id = {`${selectedIndex === 2 ? "Item-2" : ""}`} onClick={() => setSelectedIndex(2)}>
+            <div className= "nav-item" data-bs-dismiss="offcanvas" id = {`${selectedIndex === 2 ? "Item-2" : ""}`} onClick={() => setSelectedIndex(2)}>
               <p>Products</p>
             </div>
-            <div className= "nav-item" id = {`${selectedIndex === 3 ? "Item-4" : ""}`} onClick={() => setSelectedIndex(3)}>
+            <div className= "nav-item" data-bs-dismiss="offcanvas" id = {`${selectedIndex === 3 ? "Item-4" : ""}`} onClick={() => setSelectedIndex(3)}>
               <p aria-disabled="true">Customers</p>
             </div>
-            <div className= "nav-item" id = {`${selectedIndex === 4 ? "Item-5" : ""}`} onClick={() => setSelectedIndex(4)}>
+            <div className= "nav-item" data-bs-dismiss="offcanvas" id = {`${selectedIndex === 4 ? "Item-5" : ""}`} onClick={() => setSelectedIndex(4)}>
               <p aria-disabled="true">Support</p>
             </div>
             <div className= "nav-item dropdown" id = {`${selectedIndex === 1 ? "Item-1" : ""}`} onClick={() => setSelectedIndex(1)}>
               <p className="tab dropdown-toggle " role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</p>
               <ul className="dropdown-menu">
-                <Link to = '/about'>
+                <Link to = '/about#about-container'>
                   <li>
-                    <div className = 'd-flex align-items-center dropdown-item'>
+                    <div className = 'd-flex align-items-center dropdown-item' data-bs-dismiss="offcanvas">
                       <MdTimeline className='nav-icons' />
                       <p className = 'ms-2'>Our Story</p>
                       </div>
@@ -100,7 +100,7 @@ return(
                 </Link>
                 <Link to = '/reachus'>
                   <li>
-                    <div className = 'd-flex align-items-center dropdown-item'>
+                    <div className = 'd-flex align-items-center dropdown-item' data-bs-dismiss="offcanvas">
                       <FaMapMarkerAlt className='nav-icons' />
                       <p className = 'ms-2'>Reach Us</p>
                       </div>
@@ -109,7 +109,7 @@ return(
                 <li><hr className="dropdown-divider" /></li>
                 <Link to = '/faq'>
                   <li>
-                    <div className = 'd-flex align-items-center dropdown-item'>
+                    <div className = 'd-flex align-items-center dropdown-item' data-bs-dismiss="offcanvas">
                       <FaQuestionCircle className='nav-icons' />
                       <p className = 'ms-2'>FAQ</p>
                       </div>

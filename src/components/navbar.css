@@ -13,7 +13,9 @@ nav {
     height : 17vh;
   }
 .bg-body-tertiary{
-  background-color: #EBEBEB;
+  background-color: #EBEBEB !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
 }
 nav.scroller{
   background-color: rgba(255, 255, 255, 0.4); /* Transparent */

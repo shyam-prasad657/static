@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-    <HashRouter>
+    <BrowserRouter>
     <header>
       <Nav />
     </header>
@@ -25,7 +25,7 @@ function App() {
       </Routes>
     </main>
     <Footer />
-    </HashRouter>
+    </BrowserRouter>
     </>
   )
 }
