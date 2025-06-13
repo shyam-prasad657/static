@@ -33,7 +33,7 @@ function Products() {
                 <div className="col-lg-3 col-md-12 mb-2"><FlipCard/></div>
                 </div>
             </div>
-            <div className='p-5 d-flex justify-content-center' id="scrollspy-container">
+            <div className='d-flex justify-content-center' id="scrollspy-container">
                 <ScrollSpyComponent />
             </div>
             <div className="container py-5">
