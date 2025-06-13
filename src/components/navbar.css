@@ -2,7 +2,11 @@
     box-sizing: border-box;
     font-family: "Noto Sans", sans-serif;
 }
-a {
+.navbar a {
+  text-decoration: none;
+  color: inherit;
+}
+.navbar-nav a {
   text-decoration: none;
   color: inherit;
 }
@@ -13,8 +17,8 @@ nav {
     height : 17vh;
   }
 .bg-body-tertiary{
-  background-color: #EBEBEB !important;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #FFF !important;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
 
 }
 nav.scroller{

@@ -1,0 +1,23 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.left-container{
+    position: sticky;
+    top : 180px;
+}
+
+.left-tab {
+    border-left: 2.5px solid #A3A3A3;
+}
+p.scrollspy-text {
+    /* color: #EBEBEB; */
+    word-spacing: 5px;
+    line-height: 1.5;
+    transition: all 0.3s ease-in-out;
+    font-weight: 400;
+}
+.highlight-tab {
+    border-left: 3px solid #1B75BBff;
+    color: #0069CC;
+}

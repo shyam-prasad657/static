@@ -13,7 +13,7 @@ export default function Nav() {
     const handleScroll = () => {
       const offset = window.scrollY;
       setScrolled(offset>1)
-      console.log(offset);
+      // console.log(offset);
     };
       window.addEventListener('scroll', handleScroll);
       return () => window.removeEventListener('scroll', handleScroll);
@@ -29,9 +29,11 @@ return(
         </Link>
       <div className='nav-content align-self-center'>
           <div  className = 'd-flex'>
+            <Link to = '/products'>
             <div className= "nav-item" id = {`${selectedIndex === 2 ? "Item-2" : ""}`} onClick={() => setSelectedIndex(2)}>
               <p>Products</p>
             </div>
+            </Link>
             <div className= "nav-item" id = {`${selectedIndex === 3 ? "Item-4" : ""}`} onClick={() => setSelectedIndex(3)}>
               <p aria-disabled="true">Customers</p>
             </div>
@@ -78,9 +80,11 @@ return(
 </nav>
     <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
       <ul className = "navbar-nav me-auto mb-2 mb-lg-0" >
+            <Link to = '/products'>
             <div className= "nav-item" data-bs-dismiss="offcanvas" id = {`${selectedIndex === 2 ? "Item-2" : ""}`} onClick={() => setSelectedIndex(2)}>
               <p>Products</p>
             </div>
+            </Link>
             <div className= "nav-item" data-bs-dismiss="offcanvas" id = {`${selectedIndex === 3 ? "Item-4" : ""}`} onClick={() => setSelectedIndex(3)}>
               <p aria-disabled="true">Customers</p>
             </div>

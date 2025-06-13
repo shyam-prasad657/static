@@ -8,6 +8,7 @@ import Count from './pages/count'
 import CarouselComponent from './pages/carousel'
 import { BrowserRouter, HashRouter, Navigate, Route, Routes } from 'react-router-dom'
 import About from './pages/about'
+import Products from './pages/products'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
         <Route path = '/' element = {<Home />} />
         <Route path = '*' element={<Navigate to = '/' replace />} />
         <Route path = '/about' element = {<About />} />
+        <Route path = '/products' element = {<Products />} />
       </Routes>
     </main>
     <Footer />

@@ -15,8 +15,8 @@ function Usp() {
   }, []);
   return (
     <section className = 'container-fluid d-flex flex-column align-items-center' id = 'usp-container'>
-      <div className="container">
-            <div className="pt-4 d-flex justify-content-center align-items-center">
+      <div className="container py-5">
+            <div className="d-flex justify-content-center align-items-center">
             <p className="h1 text-center m-0">Inside</p>
             <img src = {logo} className='img-fluid ms-3' height = "70px" width = "125px" data-aos = 'fade-in'></img>
             </div>
@@ -30,8 +30,8 @@ function Usp() {
                         <BsCart3 className='usp-icons'/>
                       </div>
                       <div className='col-md-11 col-10'>
-                      <p className="h3 usp-text m-0">Lorem Ipsum</p>
-                      <p className="h4 text-body-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt consectetur, nisi nisl lacinia nunc,</p>
+                      <p className="h4 usp-text m-0">Lorem Ipsum</p>
+                      <p className="h5 text-body-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt consectetur, nisi nisl lacinia nunc,</p>
                       </div>
                 </div>
                 <div className='row col-12 mt-4'>
@@ -39,8 +39,8 @@ function Usp() {
                         <BsCart3 className='usp-icons'/>
                       </div>
                       <div className='col-md-11 col-10'>
-                      <p className="h3 usp-text m-0">Lorem Ipsum</p>
-                      <p className="h4 text-body-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt consectetur, nisi nisl lacinia nunc,</p>
+                      <p className="h4 usp-text m-0">Lorem Ipsum</p>
+                      <p className="h5 text-body-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt consectetur, nisi nisl lacinia nunc,</p>
                       </div>
                 </div>
                 <div className='row col-12 mt-4'>
@@ -48,8 +48,8 @@ function Usp() {
                         <BsCart3 className='usp-icons'/>
                       </div>
                       <div className='col-md-11 col-10'>
-                      <p className="h3 usp-text m-0">Lorem Ipsum</p>
-                      <p className="h4 text-body-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt consectetur, nisi nisl lacinia nunc,</p>
+                      <p className="h4 usp-text m-0">Lorem Ipsum</p>
+                      <p className="h5 text-body-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt consectetur, nisi nisl lacinia nunc,</p>
                       </div>
                 </div>
               </div>

@@ -2,7 +2,7 @@
 $flame: #EF5927ff; */
 
 #carousel-container {
-    background-color: #D6D6D6;
+    /* background-color: #F5F5F5; */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     min-height : 40vh;
 }

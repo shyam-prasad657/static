@@ -2,7 +2,7 @@
 $flame: #EF5927ff; */
 
 #about-container {
-    background-color: #EBEBEB;
+    /* background-color: #F5F5F5; */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     min-height : 40vh;
 }
@@ -13,9 +13,6 @@ p.about-text {
 }
 #head{
     font-weight: 600;
-}
-#about-img-container{
-    overflow-block:hidden;
 }
 .about-icon-container{
     border-radius: 50%;

@@ -9,8 +9,8 @@ function Count() {
     const[ref4, inView4] = useInView({ triggerOnce : true })
 
   return (
-    <section className='container-fluid d-flex justify-content-center align-items-center' id = 'count-container'>
-            <div className="row justify-content-center w-100">
+    <section className='container-fluid d-flex justify-content-center align-items-center py-5' id = 'count-container'>
+            <div className="row justify-content-center">
             <p className = 'h2 count-text col-md-3' id = 'head'>Our Growth at a Glance</p>
             <div class="vr p-0" id = 'vr-content'></div>
             <div className="col-md-7 row">

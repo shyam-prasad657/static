@@ -1,8 +1,8 @@
 /* $french-blue: #1B75BBff;
 $flame: #EF5927ff; */
 #usp-container {
-    background-color: #EBEBEB;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #F5F5F5;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     min-height : 83vh;
 }
 p.usp-text {

@@ -26,15 +26,13 @@ function About() {
   }, [location]);
   
     return (
-        <section className='container-fluid px-0 py-2' id='about-container'>
-            <div className="container py-5">
+        <section className='container-fluid px-0 py-5' id='about-container'>
+            <div className="container">
             <p className="h2 about-text text-center">This is where it all began</p>
             <p className="h4 text-center text-body-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula, justo at suscipit laoreet, eros lacus tincidunt lacus, in egestas eros ipsum in magna. Nulla facilisi. Sed nec lorem et nunc lacinia bibendum. Integer at ligula non odio eleifend posuere vitae ut metus.
             </p>
             </div>
-            <div id = "about-img-container">
-                <img src = {doodle} className='img-flui' height='190px' width= '100%'></img>
-            </div>
+            <img src = {doodle} className='img-flui' height='190px' width= '100%'></img>
             <div className="container pt-4">
             <div className='h3 text-center mt-4'>Meet The Visionaries Behind</div>
             <div className="row py-4 justify-content-between align-items-center">
