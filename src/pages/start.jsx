@@ -27,10 +27,10 @@ function Start() {
           <div className='container pb-5'>
             <div className= 'row justify-content-between'>
             <p className='h2 home-text col-md-12 text-center'>One Stop Corporate Gifting Solution</p>
-              <div className = 'col-md-3 d-flex'><MdBusiness className='icons'/><p className='h5 home-text mx-2' data-aos="fade-up">Lorem Ipsum</p></div>
-              <div className = 'col-md-3 d-flex'><MdBusiness className='icons'/><p className='h5 home-text mx-2' data-aos="fade-up">Lorem Ipsum</p></div>
-              <div className = 'col-md-3 d-flex'><MdBusiness className='icons'/><p className='h5 home-text mx-2' data-aos="fade-up">Lorem Ipsum</p></div>
-              <div className = 'col-md-3 d-flex'><MdBusiness className='icons'/><p className='h5 home-text mx-2' data-aos="fade-up">Lorem Ipsum</p></div>
+              <div className = 'col-md-3 d-flex align-items-center'><MdBusiness className='icons'/><p className='h5 home-text my-0 mx-2' data-aos="fade-up">Lorem Ipsum</p></div>
+              <div className = 'col-md-3 d-flex align-items-center'><MdBusiness className='icons'/><p className='h5 home-text my-0 mx-2' data-aos="fade-up">Lorem Ipsum</p></div>
+              <div className = 'col-md-3 d-flex align-items-center'><MdBusiness className='icons'/><p className='h5 home-text my-0 mx-2' data-aos="fade-up">Lorem Ipsum</p></div>
+              <div className = 'col-md-3 d-flex align-items-center'><MdBusiness className='icons'/><p className='h5 home-text my-0 mx-2' data-aos="fade-up">Lorem Ipsum</p></div>
             </div>
             </div>
     </section>

@@ -19,3 +19,24 @@ p.home-text {
 .icons{
     font-size: 36px;
 }
+
+/* #test {
+    position: relative;
+}
+#test::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 60%;
+    background-color: #007bff;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+#test:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+} */
