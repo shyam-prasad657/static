@@ -10,7 +10,7 @@ function About() {
     useEffect(() => {
         Aos.init({
           duration: 1000,
-          once: false, // animation runs only once
+          once: true, // animation runs only once
         });
       }, []);
   
