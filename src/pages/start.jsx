@@ -7,7 +7,7 @@ import { MdBusiness } from "react-icons/md";
 function Start() {
     useEffect(() => {
     Aos.init({
-      duration: 800,
+      duration: 1000,
       once: true, // animation runs only once
     });
   }, []);

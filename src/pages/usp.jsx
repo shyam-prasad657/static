@@ -9,7 +9,7 @@ import { BsCart3 } from "react-icons/bs";
 function Usp() {
     useEffect(() => {
     Aos.init({
-      duration: 800,
+      duration: 1000,
       once: true, // animation runs only once
     });
   }, []);

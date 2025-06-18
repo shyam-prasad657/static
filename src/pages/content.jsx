@@ -9,7 +9,7 @@ import { FaStar } from "react-icons/fa";
 function Content() {
     useEffect(() => {
     Aos.init({
-      duration: 800,
+      duration: 1000,
       once: true, // animation runs only once
     });
   }, []);
